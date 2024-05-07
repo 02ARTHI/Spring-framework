@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xmlns:context="http://www.springframework.org/schema/context" 
+ xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+	
+  <bean id="emp1" class="com.telusko.bean.Employee">
+  	<constructor-arg value="1"/>
+	<constructor-arg value="alien"/>
+	<constructor-arg value="5678.8"/>
+	<constructor-arg value="cbe"/>
+
+	</bean>
+	<bean id="emp2" class="com.telusko.bean.Employee">
+  	<constructor-arg index="3" value="chn"/>
+	<constructor-arg index="1" value="arthi"/>
+	<constructor-arg index="2" value="5576.8"/>
+	<constructor-arg index="0" value="02"/>
+
+	</bean>
+	
+</beans>
+
