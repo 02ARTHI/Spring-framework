@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>ticket info</title>
+</head>
+<body>
+<h1> Kindly Enter ticket number below to get ticket details</h1>
+<form th:action="@{/get-ticket}">
+<table>
+<tr>
+<td>Ticket number : </td>
+<td><input type="text" name="ticketNumber" /></td>
+</tr>
+
+<tr>
+
+<td><input type="submit" value="get Ticket" /></td>
+</tr>
+
+</table>
+
+</form>
+
+</body>
+</html>
