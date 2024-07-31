@@ -13,3 +13,4 @@
 ### spring dev tools
 ### spring boot scopes
 ### web client
+### Rest Template
