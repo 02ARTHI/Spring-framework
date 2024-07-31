@@ -12,3 +12,4 @@
 ### spring security
 ### spring dev tools
 ### spring boot scopes
+### web client
