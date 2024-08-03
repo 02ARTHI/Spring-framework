@@ -1,0 +1,22 @@
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        - id: telusko-api1
+          uri: lb://TELUSKOAPP1
+          predicates: 
+            - Path=/info
+        - id: telusko-api2
+          uri: lb://TELUSKOAPP2
+          predicates:
+            - Path=/moreinfo
+        
+  application:
+    name: ApiGateway
+    
+server:
+  port: 4444
