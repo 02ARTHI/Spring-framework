@@ -16,3 +16,4 @@
 ### Rest Template
 ### Thymeleaf
 ### spring cloud config server
+### Eureka server
