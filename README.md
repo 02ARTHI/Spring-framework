@@ -17,3 +17,4 @@
 ### Thymeleaf
 ### spring cloud config server
 ### Eureka server
+### api gateway
