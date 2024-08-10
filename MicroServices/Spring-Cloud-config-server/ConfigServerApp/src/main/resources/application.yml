@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: ConfigServerApp
+    
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Haider7214/Telusko
+          clone-on-start: true
+          tryMasterBranch: false
+          default-label: main
+   
