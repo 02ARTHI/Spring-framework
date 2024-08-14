@@ -1,4 +1,4 @@
-[# Spring and SpringBoot-framework  projects
+# Spring and SpringBoot-framework  projects
 
 ## Topics covered
 ### spring
@@ -20,4 +20,4 @@
 ### api gateway
 ### eureka
 ### load balancing
-](https://www.javainuse.com/spring/spring-cloud-interview-questions)
+
