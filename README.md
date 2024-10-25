@@ -7,7 +7,7 @@
 ### spring MVC
 ### spring AOP
 ### spring Batch
-### spring Data Jpa
+### spring Data Jpa 
 ### spring dev tools
 ### spring security
 ### spring dev tools
